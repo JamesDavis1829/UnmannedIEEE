@@ -9,8 +9,8 @@
 #define LINE_TOLERANCE 30
 
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();
-Adafruit_StepperMotor *motor1 = AFMS.getStepper(200, 2);
-Adafruit_StepperMotor *motor2 = AFMS.getStepper(200, 1);
+Adafruit_StepperMotor *motor2 = AFMS.getStepper(200, 2);
+Adafruit_StepperMotor *motor1 = AFMS.getStepper(200, 1);
 
 int linePinRight = A3;
 int linePinLeft = A2;
