@@ -12,13 +12,13 @@ while True:
     pygame.event.get()
     keyP = pygame.key.get_pressed()
     if keyP[pygame.K_UP]:
-        arduino.write("F")
+        arduino.write("A")
     elif keyP[pygame.K_DOWN]:
         arduino.write("B")
     elif keyP[pygame.K_LEFT]:
-        arduino.write("L")
+        arduino.write("C")
     elif keyP[pygame.K_RIGHT]:
-        arduino.write("R")
+        arduino.write("D")
     elif keyP[pygame.K_ESCAPE]:
         pygame.display.quit
         break
